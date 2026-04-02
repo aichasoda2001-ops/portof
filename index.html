@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astou Konaté | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link href="https://googleapis.com" rel="stylesheet">
+
+</head>
+
+   
+   <div class="cursor-glow"></div>
+    
+    <nav>
+        <div class="logo">ASTOU<span>.</span></div>
+        <div class="nav-links">
+            <a href="index.html">A propos</a>
+            <a href="projets.html">Projets</a>
+            <a href="Contacts.html">Contacts</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">Disponible pour de nouveaux défis</span>
+            <h1>Designer <br>& Développeuse <span class="gradient-text">Fullstack</span></h1>
+            <p>Je m'appelle <strong>Astou Konaté</strong>. Je transforme des idées complexes en interfaces fluides et mémorables.</p>
+        </div>
+    </section>
+
+    <!-- NOUVELLE SECTION : À PROPOS (TON IMAGE) -->
+    <section id="propos" class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <!-- REMPLACE 'astou.jpg' PAR TON IMAGE REEL -->
+                    <img src="profil.jpeg" alt="Astou Konaté" class="profile-img">
+                    <div class="img-decor"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Qui suis-je ?</h2>
+                    <p>Passionnée par l'intersection entre le <strong>design</strong> et la <strong>technologie</strong>, je crée des produits numériques qui ne se contentent pas de fonctionner, ils racontent une histoire.</p>
+                    <div class="stats">
+                        <div class="stat-item"><span>2+</span><p>Années d'exp.</p></div>
+                        <div class="stat-item"><span>3+</span><p>Projets livrés</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projets" class="projects">
+        <h2 class="section-title">Mes Réalisations</h2>
+        <p> 
+            "Passioné par le développement web ,j'ai réalisé des projets <br>ou j'ai pu transformer une simple idée
+            en une application compléte,en utilant HTLM et CSS pour créer <br>une expérience visuelle attrayante,
+            et PHP/JAVA pour gérer toute la logique et les interactions.
+            <br>chaque projet que je developpe est une combinaison entre design et tecnologie:une interface élégante <br>coté 
+            utilisateur solide et une structure solide coté serveur."
+        </p>
+
+<section class="portfolio-section">
+    <h2>Mes Projets</h2>
+
+    <!-- Système de filtrage par boutons (Sans JS) -->
+    <div class="filter-controls">
+        <input type="radio" name="filter" id="all" checked>
+        <label for="all">Tout</label>
+
+        <input type="radio" name="filter" id="web">
+        <label for="web">Web</label>
+
+        <input type="radio" name="filter" id="design">
+        <label for="design">Design</label>
+
+        <input type="radio" name="filter" id="mobile">
+        <label for="mobile">Mobile</label>
+
+        <!-- Grille de projets -->
+        <div class="projects-grid">
+            <div class="project-card web">
+                <h3>Site E-commerce</h3>
+                <span class="tag">Web</span>
+            </div>
+            <div class="project-card design">
+                <h3>Logo Brand</h3>
+                <span class="tag">Design</span>
+            </div>
+            <div class="project-card mobile">
+                <h3>App Santé</h3>
+                <span class="tag">Mobile</span>
+            </div>
+            <div class="project-card web">
+                <h3>Portfolio</h3>
+                <span class="tag">Web</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+        <div class="project-grid">
+            <div class="project-card">
+                <a href="meulfeu.html">
+                <div class="project-img p1"></div>
+                </a>
+                <div class="project-content">
+                    <h3>"Slay every day"</h3>
+                    <p>"L'élégance n'est pas une option,c'est ton identité."</p>
+                </div>
+            </div>
+            <div class="project-card" >
+                <a href="parfum.html">
+                <div class="project-img p2"></div>
+                </a>
+                <div class="project-content">
+                    <h3>"L'essece du raffinement".</h3>
+                    <p> Explore notre collection et laisse-toi séduire par des senteurs inoubliables.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <a href="materiel.html">
+                <div class="project-img p3"></div>
+                </a>
+                <div class="project-content">
+                    <h3>"Votre espace, votre style"</h3>
+                    <p>Créer des espaces qui inspirent la productivité,le confort et le succés au quotidient.</p>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <footer id="contact">
+        <h2>Prêt à lancer votre projet ?</h2>
+        <a href="mailto:astou@email.com" class="footer-mail">aichasoda2001@gmail.com</a>
+        <div class="socials">
+            <a href="#"><i class="fab fa-tik tok-in">Tik tok</i></a>
+            <a href="#"><i class="fab fa-github"></i>Github</a>
+            <a href="#"><i class="fab fa-instagram"></i>Intagram</a>
+        </div>
+    </footer>
+
+    <script>
+        // Effet de lumière qui suit la souris
+        const glow = document.querySelector('.cursor-glow');
+        document.addEventListener('mousemove', (e) => {
+            glow.style.left = e.clientX + 'px';
+            glow.style.top = e.clientY + 'px';
+        });
+    </script>
+
+ 
+
+
+</body>
+</html>
